@@ -13,6 +13,10 @@ function Navigation(){
                             <Nav.Item><Link to="/">Home</Link></Nav.Item>
                             <Nav.Item><Link to="Basics">Computer Basics</Link></Nav.Item>
                             <Nav.Item><Link to="Networking">Networking</Link></Nav.Item>
+                            <Nav.Item><Link to="Vmware">VMware</Link></Nav.Item>
+                            <Nav.Item><Link to="Windows">Windows</Link></Nav.Item>
+                            <Nav.Item><Link to="Linux">Linux</Link></Nav.Item>
+                            <Nav.Item><Link to="Troubleshooting">Troubleshooting</Link></Nav.Item>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
