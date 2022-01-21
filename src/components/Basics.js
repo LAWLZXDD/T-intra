@@ -4,7 +4,7 @@ function Basics(){
 
     return(
         <div>
-            This is for Computer Basics Page
+            <p>This is for Computer Basics Page</p>
         </div>
     )
 }
