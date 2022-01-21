@@ -15,10 +15,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-
-      <Navigation />
-
         <div className="content">
+          <Navigation />
           <Routes>
             <Route path="/" element={<Homepage />}></Route>
             <Route path="Basics" element={<Basics />}></Route>
