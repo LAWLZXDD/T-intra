@@ -1,14 +1,14 @@
 .main-navbar{
-  display: flex;
-  padding: 1em;
-  background-color: #d5d5da
+  background-color: #d5d5da;
 }
-.brandlogo{
+.homelogo{
+  padding-right: 2rem;
   font-size: 1.5rem;
+  font-weight: bold;
   text-decoration: none;
   color: black
 }
-.navitem{
+.nav-item{
   margin:0 1em ;
   font-size: 1.2rem;
 }
@@ -20,4 +20,18 @@
 h1{
   text-align: center;
   padding: 10px;
+}
+
+footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #5c5c60;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-item-set{
+  display: flex;
+  justify-content: flex-end;
 }

@@ -8,6 +8,7 @@ import Windows from './components/Windows';
 import Linux from './components/Linux';
 import Troubleshooting from './components/Troubleshooting';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Footer from './components/Footer';
 
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="Linux" element={<Linux />}></Route>
             <Route path="Troubleshooting" element={<Troubleshooting />}></Route>
           </Routes>
+          <Footer />
         </div>
       </div>
     </Router>
