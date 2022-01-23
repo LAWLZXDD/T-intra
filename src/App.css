@@ -16,27 +16,29 @@
   text-decoration: none;
   color: black
 }
-
 h1{
   text-align: center;
   padding: 10px;
 }
-
 footer{
-  margin-top: 1rem;
+
   padding: 1rem;
   background-color: #5c5c60;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-
 .nav-item-set{
   display: flex;
   justify-content: flex-end;
 }
 .container{
   display: flex;
-  justify-content: center;
   justify-content: space-evenly;
+}
+.schoolhouse-info{
+  list-style-type: none;
+}
+h6{
+  text-decoration: underline;
 }
