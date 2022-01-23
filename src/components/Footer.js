@@ -5,8 +5,9 @@ function Footer(){
     return(
         <footer>
             <div className="container">
-                <p className="box">Place Holder for footer stuff</p>
-                <p className="box"> BLAH BLAH BLAH</p>
+                <p className="box">Place School Notes, cleaning roster, </p>
+                <p className="box">©2022 U.S. Army, 35T1O. All Rights Reserved</p>
+                <p className="box">Contact Info</p>
             </div>
 
         </footer>
