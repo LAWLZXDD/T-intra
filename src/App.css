@@ -21,7 +21,6 @@ h1{
   padding: 10px;
 }
 footer{
-
   padding: 1rem;
   background-color: #5c5c60;
   position: fixed;
@@ -35,10 +34,15 @@ footer{
 .container{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  color: white;
 }
 .schoolhouse-info{
   list-style-type: none;
+  padding-left: 0;
+  text-align: center;
 }
-h6{
+h5{
   text-decoration: underline;
+  text-align: center;
 }
