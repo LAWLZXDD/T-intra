@@ -35,7 +35,7 @@ footer{
   bottom: 0;
   width: 100%;
 }
-.container{
+.foot-container{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
