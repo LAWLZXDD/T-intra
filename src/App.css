@@ -29,7 +29,6 @@ h1{
 }
 /* Footer */
 footer{
-  padding: 1rem;
   background-color: #5c5c60;
   position: fixed;
   bottom: 0;
@@ -49,4 +48,13 @@ footer{
 h5{
   text-decoration: underline;
   text-align: center;
+}
+.cardbox{
+  margin: 10px;
+}
+.cardgrid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

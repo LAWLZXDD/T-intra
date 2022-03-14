@@ -18,6 +18,7 @@ function App() {
       <div className="App">
         <div className="content">
           <Navigation />
+          <Footer />
           <Routes>
             <Route path="/" element={<Homepage />}></Route>
             <Route path="Basics" element={<Basics />}></Route>
@@ -27,7 +28,8 @@ function App() {
             <Route path="Linux" element={<Linux />}></Route>
             <Route path="Troubleshooting" element={<Troubleshooting />}></Route>
           </Routes>
-          <Footer />
+          
+          
         </div>
       </div>
     </Router>
