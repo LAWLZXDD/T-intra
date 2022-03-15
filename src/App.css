@@ -1,6 +1,7 @@
 /* Navbar */
 .main-navbar{
-  background-color: #d5d5da;  
+  background-color: #d5d5da;
+  margin-bottom: 20px;
 }
 .selected{
   background-color: rgb(25, 125, 255);
@@ -30,9 +31,11 @@ h1{
 /* Footer */
 footer{
   background-color: #5c5c60;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-top: 10px;
+  
 }
 .foot-container{
   display: flex;
@@ -57,4 +60,24 @@ h5{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-bottom: 1.5rem;
+  justify-content: space-evenly;
+}
+.home{
+  padding-bottom: 2.5rem;
+}
+.container{
+  position: relative;
+  min-height: 100vh;
+  margin: 5rem;
+}
+.push{
+  height: 50px;
+}
+.App{
+  position: relative;
+  min-height: 100vh;
+}
+.content{
+  padding-bottom: 1.5rem;
 }

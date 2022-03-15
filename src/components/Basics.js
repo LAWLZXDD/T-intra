@@ -11,7 +11,7 @@ function Basics(){
       {image: "", title:"Firmware Lessons", text:"Defining Characteristics of Firmware"},
       {image: "", title:"Software Lessons", text:"Defining charactertistics of Software"},
       {image: "", title:"OSI Model vs TCP/IP Model", text:"Explanation of the OSI Model and TCP/IP Models"},
-      {image: "", title:"Intro to IP Addressing/subnetting", text:"IP Addressing fundamentals and understanding subnetting principles"},
+      {image: "", title:"Intro to IP Addressing/Subnetting", text:"IP Addressing fundamentals and understanding subnetting principles"},
       {image: "", title:"Review and Practice", text:"Practice test and key points to review"}
     ];
 
@@ -30,17 +30,17 @@ function Basics(){
     return(
     <div className="home">
       <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <div class="cardgrid">{cardInfo.map(renderCards)}</div>
-          </div>
-          <div class="col-lg-5 d-none d-lg-block">
+        <div class="row align-items-center">
+          <div class="col-lg-5 d-none d-xl-block">
             <h1 class="font-weight-light">Computer Basics</h1>
             <p>
               Computer Basics is an introductory block of instruction that will familiarize
               you with basic fundamentals of components that computers are commonly comprised of,
               how they function at a basic level, and how they relate/led to the modern day technology we use in the Army.
             </p>
+          </div>
+          <div class="col-lg-7">
+            <div class="cardgrid">{cardInfo.map(renderCards)}</div>
           </div>
         </div>
       </div>

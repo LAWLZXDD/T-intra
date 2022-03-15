@@ -1,16 +1,17 @@
+import zIndex from "@mui/material/styles/zIndex";
 import React from "react";
 
 function Footer(){
 
     return(
-        <footer>
+        <footer style={{zIndex:10}}>
             <div className="foot-container">
                 <div className="d-none d-lg-block">
                     <h5 className="test">Schoolhouse Information</h5>
                     <ul className="schoolhouse-info">
                         <li className="schoolhouse-info">Training Calendar</li>
                         <li className="schoolhouse-info">Building Cleaning Layout</li>
-                        <li className="schoolhouse-info">Schoolhouse POC</li>
+                        <li className="schoolhouse-info">Schoolhouse Contacts</li>
                     </ul>
                 </div>
                 <div id="copyright" className="d-none d-lg-block">
