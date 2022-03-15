@@ -1,3 +1,6 @@
+*{
+  border: 1px solid red;
+}
 /* Navbar */
 .main-navbar{
   background-color: #d5d5da;
@@ -65,19 +68,20 @@ h5{
 }
 .home{
   padding-bottom: 2.5rem;
+  
 }
 .container{
   position: relative;
   min-height: 100vh;
   margin: 5rem;
 }
-.push{
+/* .push{
   height: 50px;
-}
+} */
 .App{
   position: relative;
   min-height: 100vh;
 }
 .content{
-  padding-bottom: 1.5rem;
+  /* padding-bottom: 1.5rem; */
 }

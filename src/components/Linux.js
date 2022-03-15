@@ -45,9 +45,10 @@ function Linux(){
                 <div class="col-lg-12 d-none d-xl-block">
                 <h1 class="font-weight-light">Linux</h1>
                     <p>
-                    The Windows block of instruction is designed to introduce you to server-side management that allows users to perform
-                    daily operations. Windows is a user friendly computing environment that you will commonly see in the Army and in the civilian sector.
-                    You will become familiar with computing functionalities that extend beyond the Windows Operating System.
+                    Linux is a lightweight versatile operating system known for its security, reliablity and stability. It is very common to see 
+                    servers running some sort of version of a Linux based operating system(both Military and Civilian sectors). Many of the servers you will be maintaining and implementing
+                    during your Army career will be linux based. The learning curve for this operating system is high but the knowledge is essential and lucrative during
+                    your time in the Army and when you get out.
                     </p>
                 </div>
                 <div class="col-lg-12">
