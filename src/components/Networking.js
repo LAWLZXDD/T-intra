@@ -28,8 +28,8 @@ function Networking(){
       return(
       <div className="home">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-3 d-none d-xl-block">
+            <div class="row networkrow">
+                <div class="col-lg-12 d-none d-xl-block">
                 <h1 class="font-weight-light">Network Configuration</h1>
                     <p>
                     The Network Configuration block of instruction will introduce you to how computers communicate. The Internet
@@ -38,7 +38,7 @@ function Networking(){
                     a variety of certification exams.
                     </p>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-12">
                 <div class="cardgrid">{cardInfo.map(renderCards)}</div>
                 </div>
             </div>
