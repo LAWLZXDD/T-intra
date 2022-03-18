@@ -10,7 +10,7 @@ import { Link, NavLink } from "react-router-dom";
 function Navigation(){
 
     return(
-        <Navbar className="main-navbar" expand="xl">
+        <Navbar className="main-navbar sticky-top" expand="xl">
                 <Navbar.Brand><Link to="/" className="homelogo">Server Workstation Integration</Link></Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="nav-item-set">

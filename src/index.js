@@ -29,9 +29,10 @@ ReactDOM.render(
           <Route path="Linux" element={<Linux />}></Route>
           <Route path="Troubleshooting" element={<Troubleshooting />}></Route>
         </Routes>
-        <Footer />
+        
       </div>
     </div>
+    <Footer />
   </BrowserRouter>,
   document.getElementById('root')
 );

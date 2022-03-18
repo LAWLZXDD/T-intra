@@ -1,10 +1,12 @@
 *{
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+body{
+  /* margin: 0 0 150px; */
 }
 /* Navbar */
 .main-navbar{
-  background-color: #d5d5da;
-  margin-bottom: 20px;
+  background-color: rgb(59, 59, 59);
 }
 .selected{
   background-color: rgb(25, 125, 255);
@@ -13,7 +15,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
-  color: black
+  color: white;
 }
 .nav-item{
   margin:0 1em ;
@@ -21,7 +23,7 @@
 }
 .nav-links{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .nav-item-set{
   justify-content: space-evenly;
@@ -35,9 +37,8 @@ h1{
 footer{
   background-color: #5c5c60;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
-  margin-top: 10px;
   
 }
 .foot-container{
@@ -90,16 +91,14 @@ h5{
   min-height: 100vh;
   margin: 5rem;
 }
-/* .push{
-  height: 50px;
-} */
 .App{
   position: relative;
   min-height: 100vh;
 }
-/* .content{
-  padding-bottom: 1.5rem;
-} */
+.content{
+  /* margin: auto; */
+  /* margin-bottom: 5rem; */
+}
 .tangologo{
   height: 150px;
   width: 150px;
@@ -113,6 +112,22 @@ h5{
 }
 .pond{
   align-items: center;
+  margin: auto;
+}
+.welheader{
+  align-items: center;
+  background-color: #d5d5dad3;
+  padding: 15px;
+}
+.welpond{
+  align-items: center;
+  height: auto;
+  margin: auto;
+  background-image: url("/public/images/SplashArtLogo1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
+  background-color: rgba(116, 234, 255, 0.692);
 }
 .welbox{
   display: flex;
@@ -123,4 +138,37 @@ h5{
   .networkrow{
   justify-content: center;
   align-items: center;
+}
+.carouselbanner{
+  display: flex;
+  justify-content: center;
+  
+}
+.carouselcontainer{
+  display: flex;
+  justify-content: center;
+}
+
+.mycarousel{
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+}
+.carousel-item{
+  height: 550px;
+  width: 300px;
+}
+.charliecontainer{
+  display: flex;
+  /* margin: 0 0 8rem; */
+  justify-content: space-evenly;
+  background-color: #d5d5da;
+  padding: 50px;
+}
+.charliebox h3{
+  display: flex;
+  justify-content: center;
+}
+.charliebox p{
+  text-align: center;
 }
