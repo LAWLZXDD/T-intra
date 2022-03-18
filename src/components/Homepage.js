@@ -5,7 +5,7 @@ function Homepage(){
 
     return (
         <div>
-            <div class="welcomecontainer d-none d-lg-block">
+            <div class="welcomecontainer d-none d-md-block">
                 <div class="row welheader" style={{margin: 0}}>
                     <div class="col-2 welbox">
                         <img src={"/images/35T_Logo.png"} alt="35T Logo" class="tangologo img-fluid"/>
@@ -18,7 +18,7 @@ function Homepage(){
                     </div>
                 </div>
             </div>
-            <div class="derpcontainer">
+            <div class="derpcontainer d-none d-lg-block">
             <div class="row welpond" style={{margin: 0}}>
                         <div class="col-lg-2 carouselbanner">
                             <img src={"/images/305th_Logo.png"} alt="305th BN Logo" class="bn305logo img-fluid"/>
