@@ -3,14 +3,17 @@ import { Card } from "react-bootstrap";
 
 function Networking(){
 
+  const cardPath = "/images/cisco2.png"
+
     const cardInfo = [
-        {image: "", title:"OSI and TCP IP Model", text:"More in depth analysis of each layer"},
-        {image: "", title:"Wireshark", text:"Intro to Wireshark and understanding the network traffic"},
-        {image: "", title:"Switches", text:"Intro to Cisco IOS, basic commands, and understanding VLANS"},
-        {image: "", title:"Basic Routers", text:"Familiarizing routing concepts and protocols(RIPv2, OSPF, BGP), Standard ACLs, and router commands"},
-        {image: "", title:"Advanced Routers", text:"Extended ACLs, Trunk Ports, and creating your first Router on a stick "},
-        {image: "", title:"Recovery Procedures", text:"Understanding the device register and recover passwords and configuration files"},
-        {image: "", title:"Practice and Review", text:"Practice test and key points to review"}
+        {image: cardPath, title:"OSI and TCP IP Model", text:"More in depth analysis of each layer"},
+        {image: "/images/wireshark-logo.png", title:"Wireshark", text:"Intro to Wireshark and understanding the network traffic"},
+        {image: cardPath, title:"Switches", text:"Intro to Cisco IOS, basic commands, and understanding VLANS"},
+        {image: cardPath, title:"Switches part 2", text:"How switches communicate, understanding VLANS, and standard ACLs"},
+        {image: cardPath, title:"Routers", text:"Router Commands, familiarizing routing concepts and protocols(RIPv2, OSPF, BGP), Extended ACLs"},
+        {image: cardPath, title:"Advanced Routers", text:"Trunk Ports, and creating your first 'Router on a Stick' "},
+        {image: cardPath, title:"Recovery Procedures", text:"Understanding the device register and recover passwords and configuration files"},
+        {image: "/images/LessonPlanLogo.png", title:"Practice and Review", text:"Practice test and key points to review"}
       ];
   
       const renderCards = (card, index) => {
@@ -26,7 +29,7 @@ function Networking(){
       }
   
       return(
-      <div className="home">
+      // <div className="home">
         <div class="container">
             <div class="row networkrow">
                 <div class="col-lg-12 d-none d-xl-block">
@@ -43,7 +46,7 @@ function Networking(){
                 </div>
             </div>
         </div>
-      </div>
+      // </div>
     );
 }
 

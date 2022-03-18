@@ -3,27 +3,30 @@ import { Card } from 'react-bootstrap';
 
 function Linux(){
 
+    const rhellogo = "/images/rhellogo.png";
+    const centlogo = "/images/centos-logo-light.png";
+
     const cardInfo = [
-        {image: "", title:"Intro to Linux", text:"Pros and Cons of Linux, brief overview of the Operating System "},
-        {image: "", title:"Installing the Operating System", text:"Installing Redhat 6/7 and CentOS"},
-        {image: "", title:"Navigating the Linux Filesystem", text:"Learn to navigate the Linux OS using Command Line, understanding Relative and Absolute location"},
-        {image: "", title:"Using the Text Line Editor", text:"Using VI or VIM to create and modify text documents"},
-        {image: "", title:"Configuring Linux Networking Interfaces", text:"Become familiar with files to set up hostnames, IP addresses, DNS using Command Line"},
-        {image: "", title:"More Filesystem Commands", text:"Utilzing various commands to perform multiple functions within a filesystem"},
-        {image: "", title:"Using CentOS Graphical User Interface", text:"Knowing multiple ways to accomplish a task is essential in IT. Explore Linux's GUIs"},
-        {image: "", title:"Filesystem backups", text:"Learn to use TAR Command and learn about file compression types"},
-        {image: "", title:"Partitioning Linux Hard Drives", text:"Learn to make a fresh new HDD usable to the OS and store data on it"},
-        {image: "", title:"RPM Package Manager", text:"Installing applications and other service tools from repositories using Yum and and RPM commands"},
-        {image: "", title:"Linux Boot Process", text:"Understand how the Operating System boots up and the various directories used to start services"},
-        {image: "", title:"Linux Services", text:"Learn to start and stop services permanently and temporarily for boot up operations and system hardening"},
-        {image: "", title:"Network File System", text:"Setting up NFS and familiarizing with files needed to share directories across a network, both server and client"},
-        {image: "", title:"Linux User and Groups", text:"Creating users and groups and learning where their local information is stored using Command Line."},
-        {image: "", title:"Linux Shell Environments", text:"Modifying shell environments and creating custom user shell environments"},
-        {image: "", title:"Filesystem Permissions", text:"Learn to read and setup permissions on a filessytem."},
-        {image: "", title:"Access Control Lists", text:"Caveat on filesystem permissions to allow individuals and groups to a directory and files"},
-        {image: "", title:"Linux Printers", text:"Setting up local and network printers on the Linux Operating System"},
-        {image: "", title:"Security", text:"Perform more system hardening practices to comply with DoD and Army IA regulations"},
-        {image: "", title:"Practice and Review", text:"Practice test and key points to review"}
+        {image: rhellogo, title:"Intro to Linux", text:"Pros and Cons of Linux, brief overview of the Operating System "},
+        {image: centlogo, title:"Installing the Operating System", text:"Installing Redhat 6/7 and CentOS"},
+        {image: rhellogo, title:"Navigating the Linux Filesystem", text:"Learn to navigate the Linux OS using Command Line, understanding Relative and Absolute location"},
+        {image: centlogo, title:"Using the Text Line Editor", text:"Using VI or VIM to create and modify text documents"},
+        {image: rhellogo, title:"Configuring Linux Networking Interfaces", text:"Become familiar with files to set up hostnames, IP addresses, DNS using Command Line"},
+        {image: centlogo, title:"More Filesystem Commands", text:"Utilzing various commands to perform multiple functions within a filesystem"},
+        {image: rhellogo, title:"Using CentOS Graphical User Interface", text:"Knowing multiple ways to accomplish a task is essential in IT. Explore Linux's GUIs"},
+        {image: centlogo, title:"Filesystem backups", text:"Learn to use TAR Command and learn about file compression types"},
+        {image: rhellogo, title:"Partitioning Linux Hard Drives", text:"Learn to make a fresh new HDD usable to the OS and store data on it"},
+        {image: centlogo, title:"RPM Package Manager", text:"Installing applications and other service tools from repositories using Yum and and RPM commands"},
+        {image: rhellogo, title:"Linux Boot Process", text:"Understand how the Operating System boots up and the various directories used to start services"},
+        {image: centlogo, title:"Linux Services", text:"Learn to start and stop services permanently and temporarily for boot up operations and system hardening"},
+        {image: rhellogo, title:"Network File System", text:"Setting up NFS and familiarizing with files needed to share directories across a network, both server and client"},
+        {image: centlogo, title:"Linux User and Groups", text:"Creating users and groups and learning where their local information is stored using Command Line."},
+        {image: rhellogo, title:"Linux Shell Environments", text:"Modifying shell environments and creating custom user shell environments"},
+        {image: centlogo, title:"Filesystem Permissions", text:"Learn to read and setup permissions on a filessytem."},
+        {image: rhellogo, title:"Access Control Lists", text:"Caveat on filesystem permissions to allow individuals and groups to a directory and files"},
+        {image: centlogo, title:"Linux Printers", text:"Setting up local and network printers on the Linux Operating System"},
+        {image: rhellogo, title:"Security", text:"Perform more system hardening practices to comply with DoD and Army IA regulations"},
+        {image: "/images/LessonPlanLogo.png", title:"Practice and Review", text:"Practice test and key points to review"}
       ];
   
       const renderCards = (card, index) => {

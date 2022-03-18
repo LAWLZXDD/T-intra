@@ -3,15 +3,17 @@ import { Card } from 'react-bootstrap'
 
 function Vmware(){
 
+  const vmcard1 = "/images/vmwarelogo1.png";
+
     const cardInfo = [
-        {image: "", title:"Virtualization Concepts and VMWare Hierarchy", text:"Intro to the VMWare VSphere Inventory Hierarchy"},
-        {image: "", title:"Build ESXi Hypervisors and Data Centers", text:"Implementation of physical hosts into usable resources in a Data Center"},
-        {image: "", title:"Utilizing Virtual Computing Resources", text:"Configuring clusters, resource pools, and datastores"},
-        {image: "", title:"Creating Virtual Machines", text:"Creating the Virtual Machines(servers and clients)"},
-        {image: "", title:"Creating Content Libraries", text:"How to create, deploy, and utilize content libraries"},
-        {image: "", title:"Creating Templates and Snapshots", text:"Recovery Procedures and Rapid deployment of baseline configurations"},
-        {image: "", title:"Virtual Networking", text:"Configuring virtual networks to communicate with multiple VMs, data centers, physical servers and workstations "},
-        {image: "", title:"Practice and Review", text:"Practice test and key points to review"}
+        {image: vmcard1, title:"Virtualization Concepts and VMWare Hierarchy", text:"Intro to the VMWare VSphere Inventory Hierarchy"},
+        {image: vmcard1, title:"Build ESXi Hypervisors and Data Centers", text:"Implementation of physical hosts into usable resources in a Data Center"},
+        {image: vmcard1, title:"Utilizing Virtual Computing Resources", text:"Configuring clusters, resource pools, and datastores"},
+        {image: vmcard1, title:"Creating Virtual Machines", text:"Creating the Virtual Machines(servers and clients)"},
+        {image: vmcard1, title:"Creating Content Libraries", text:"How to create, deploy, and utilize content libraries"},
+        {image: vmcard1, title:"Creating Templates and Snapshots", text:"Recovery Procedures and Rapid deployment of baseline configurations"},
+        {image: vmcard1, title:"Virtual Networking", text:"Configuring virtual networks to communicate with multiple VMs, data centers, physical servers and workstations "},
+        {image: "/images/LessonPlanLogo.png", title:"Practice and Review", text:"Practice test and key points to review"}
       ];
   
       const renderCards = (card, index) => {
