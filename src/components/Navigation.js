@@ -1,11 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
-//TODO
-//Add Active setting to selected course
-//make collapse a better looking dropdown?
-
-
 
 function Navigation(){
 
