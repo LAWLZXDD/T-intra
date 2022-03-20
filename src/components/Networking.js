@@ -6,12 +6,13 @@ function Networking(){
   const cardPath = "/images/cisco2.png"
 
     const cardInfo = [
-        {image: cardPath, title:"OSI and TCP IP Model", text:"More in depth analysis of each layer"},
+        {image: cardPath, title:"OSI and TCP IP Model", text:"A more in-depth analysis of each layer"},
         {image: "/images/wireshark-logo.png", title:"Wireshark", text:"Intro to Wireshark and understanding the network traffic"},
-        {image: cardPath, title:"Switches", text:"Intro to Cisco IOS, basic commands, and understanding VLANS"},
-        {image: cardPath, title:"Switches part 2", text:"How switches communicate, understanding VLANS, and standard ACLs"},
+        {image: cardPath, title:"Switches", text:"Intro to Cisco IOS, basic commands, and how switches communicate"},
+        {image: cardPath, title:"Switches part 2", text:"Understanding VLANS, Spanning-Tree Protocol, Standard ACLs"},
+        {image: cardPath, title:"Subnetting", text:"Learn about and how to subnet. The importance of network segementation"},
         {image: cardPath, title:"Routers", text:"Router Commands, familiarizing routing concepts and protocols(RIPv2, OSPF, BGP), Extended ACLs"},
-        {image: cardPath, title:"Advanced Routers", text:"Trunk Ports, and creating your first 'Router on a Stick' "},
+        {image: cardPath, title:"Advanced Routers", text:"Trunk Ports and creating your first 'Router on a Stick' "},
         {image: cardPath, title:"Recovery Procedures", text:"Understanding the device register and recover passwords and configuration files"},
         {image: "/images/LessonPlanLogo.png", title:"Practice and Review", text:"Practice test and key points to review"}
       ];

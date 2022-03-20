@@ -11,7 +11,7 @@ function Vmware(){
         {image: vmcard1, title:"Utilizing Virtual Computing Resources", text:"Configuring clusters, resource pools, and datastores"},
         {image: vmcard1, title:"Creating Virtual Machines", text:"Creating the Virtual Machines(servers and clients)"},
         {image: vmcard1, title:"Creating Content Libraries", text:"How to create, deploy, and utilize content libraries"},
-        {image: vmcard1, title:"Creating Templates and Snapshots", text:"Recovery Procedures and Rapid deployment of baseline configurations"},
+        {image: vmcard1, title:"Creating Templates and Snapshots", text:"Recovery Procedures and rapid deployment of baseline configurations"},
         {image: vmcard1, title:"Virtual Networking", text:"Configuring virtual networks to communicate with multiple VMs, data centers, physical servers and workstations "},
         {image: "/images/LessonPlanLogo.png", title:"Practice and Review", text:"Practice test and key points to review"}
       ];

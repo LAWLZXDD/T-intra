@@ -10,9 +10,9 @@ function Basics(){
 
     const cardInfo = [
       {image: image, title:"Hardware Components", text:"Recognizing hardware components"},
-      {image: image, title:"Firmware Lessons", text:"Defining characteristics of Firmware"},
-      {image: image, title:"Software Lessons", text:"Defining charactertistics of Software"},
-      {image: image, title:"OSI Model vs TCP/IP Model", text:"Explanation of the OSI Model and TCP/IP Models"},
+      {image: image, title:"Firmware Lessons", text:"Defining characteristics of firmware"},
+      {image: image, title:"Software Lessons", text:"Defining charactertistics of software"},
+      {image: image, title:"OSI Model vs TCP/IP Model", text:"Explanation of the OSI Model and TCP/IP Model"},
       {image: image, title:"Intro to IP Addressing/Subnetting", text:"IP Addressing fundamentals and understanding subnetting principles"},
       {image: image, title:"Review and Practice", text:"Practice test and key points to review"}
     ];
