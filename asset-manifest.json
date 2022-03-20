@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/T-intra/static/css/main.58a4c688.css",
-    "main.js": "/T-intra/static/js/main.fd9eee1c.js",
-    "static/media/SplashArtLogo.jpg": "/T-intra/static/media/SplashArtLogo.27880602a60821dbbb3d.jpg",
-    "index.html": "/T-intra/index.html",
-    "main.58a4c688.css.map": "/T-intra/static/css/main.58a4c688.css.map",
-    "main.fd9eee1c.js.map": "/T-intra/static/js/main.fd9eee1c.js.map"
+    "main.css": "/t-intra/static/css/main.88fc3852.css",
+    "main.js": "/t-intra/static/js/main.fd9eee1c.js",
+    "static/media/SplashArtLogo.jpg": "/t-intra/static/media/SplashArtLogo.27880602a60821dbbb3d.jpg",
+    "index.html": "/t-intra/index.html",
+    "main.88fc3852.css.map": "/t-intra/static/css/main.88fc3852.css.map",
+    "main.fd9eee1c.js.map": "/t-intra/static/js/main.fd9eee1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.58a4c688.css",
+    "static/css/main.88fc3852.css",
     "static/js/main.fd9eee1c.js"
   ]
 }
