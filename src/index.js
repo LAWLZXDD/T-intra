@@ -19,9 +19,8 @@ ReactDOM.render(
     <div className="App">
       <div className="content">
         <Navigation />
-        <Homepage />
         <Routes>
-          <Route path="/" element={<Homepage />}></Route>
+          <Route path="/t-intra" element={<Homepage />}></Route>
           <Route path="Basics" element={<Basics />}></Route>
           <Route path="Networking" element={<Networking />}></Route>
           <Route path="Vmware" element={<Vmware />}></Route>
