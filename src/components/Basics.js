@@ -1,20 +1,16 @@
 import React from "react"
 import { Card } from "react-bootstrap";
-
-//make cards for left hand side that will flow from left to right and wrap around: 5-6 cards
-//Hardware Components, Firmware lessons, Software lessons, OSI vs TCP/IP Model, Intro to IP addressing/subnet
+import lessonplanimg from '../images/LessonPlanLogo.png';
 
 function Basics(){
 
-  const image = "/images/LessonPlanLogo.png"
-
     const cardInfo = [
-      {image: image, title:"Hardware Components", text:"Recognizing hardware components"},
-      {image: image, title:"Firmware Lessons", text:"Defining characteristics of firmware"},
-      {image: image, title:"Software Lessons", text:"Defining charactertistics of software"},
-      {image: image, title:"OSI Model vs TCP/IP Model", text:"Explanation of the OSI Model and TCP/IP Model"},
-      {image: image, title:"Intro to IP Addressing/Subnetting", text:"IP Addressing fundamentals and understanding subnetting principles"},
-      {image: image, title:"Review and Practice", text:"Practice test and key points to review"}
+      {image: lessonplanimg, title:"Hardware Components", text:"Recognizing hardware components"},
+      {image: lessonplanimg, title:"Firmware Lessons", text:"Defining characteristics of firmware"},
+      {image: lessonplanimg, title:"Software Lessons", text:"Defining charactertistics of software"},
+      {image: lessonplanimg, title:"OSI Model vs TCP/IP Model", text:"Explanation of the OSI Model and TCP/IP Model"},
+      {image: lessonplanimg, title:"Intro to IP Addressing/Subnetting", text:"IP Addressing fundamentals and understanding subnetting principles"},
+      {image: lessonplanimg, title:"Review and Practice", text:"Practice test and key points to review"}
     ];
 
     const renderCards = (card, index) => {

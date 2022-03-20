@@ -1,19 +1,19 @@
 import React from "react";
 import { Card } from 'react-bootstrap'
+import vmimg from '../images/vmwarelogo1.png';
+import lessonplanimg from '../images/LessonPlanLogo.png';
 
 function Vmware(){
 
-  const vmcard1 = "/images/vmwarelogo1.png";
-
     const cardInfo = [
-        {image: vmcard1, title:"Virtualization Concepts and VMWare Hierarchy", text:"Intro to the VMWare VSphere Inventory Hierarchy"},
-        {image: vmcard1, title:"Build ESXi Hypervisors and Data Centers", text:"Implementation of physical hosts into usable resources in a Data Center"},
-        {image: vmcard1, title:"Utilizing Virtual Computing Resources", text:"Configuring clusters, resource pools, and datastores"},
-        {image: vmcard1, title:"Creating Virtual Machines", text:"Creating the Virtual Machines(servers and clients)"},
-        {image: vmcard1, title:"Creating Content Libraries", text:"How to create, deploy, and utilize content libraries"},
-        {image: vmcard1, title:"Creating Templates and Snapshots", text:"Recovery Procedures and rapid deployment of baseline configurations"},
-        {image: vmcard1, title:"Virtual Networking", text:"Configuring virtual networks to communicate with multiple VMs, data centers, physical servers and workstations "},
-        {image: "/images/LessonPlanLogo.png", title:"Practice and Review", text:"Practice test and key points to review"}
+        {image: vmimg, title:"Virtualization Concepts and VMWare Hierarchy", text:"Intro to the VMWare VSphere Inventory Hierarchy"},
+        {image: vmimg, title:"Build ESXi Hypervisors and Data Centers", text:"Implementation of physical hosts into usable resources in a Data Center"},
+        {image: vmimg, title:"Utilizing Virtual Computing Resources", text:"Configuring clusters, resource pools, and datastores"},
+        {image: vmimg, title:"Creating Virtual Machines", text:"Creating the Virtual Machines(servers and clients)"},
+        {image: vmimg, title:"Creating Content Libraries", text:"How to create, deploy, and utilize content libraries"},
+        {image: vmimg, title:"Creating Templates and Snapshots", text:"Recovery Procedures and rapid deployment of baseline configurations"},
+        {image: vmimg, title:"Virtual Networking", text:"Configuring virtual networks to communicate with multiple VMs, data centers, physical servers and workstations "},
+        {image: lessonplanimg, title:"Practice and Review", text:"Practice test and key points to review"}
       ];
   
       const renderCards = (card, index) => {

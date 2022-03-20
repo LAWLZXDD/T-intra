@@ -1,12 +1,13 @@
 import React from "react";
 import { Card } from 'react-bootstrap';
+import lessonplanimg from '../images/LessonPlanLogo.png';
 
 function Troubleshooting() {
 
   const cardInfo = [
-    { image: "/images/LessonPlanLogo.png", title: "Integration", text: "Integrate all previous lessons into one architecture. Checklist included" },
-    { image: "/images/LessonPlanLogo.png", title: "Troubleshooting", text: "Troubleshooting Form" },
-    { image: "/images/LessonPlanLogo.png", title: "The Engineer", text: "Utilizing previous knowledge, test your critical thinking skills by building complex system solutions to meet a business necessity" }
+    { image: lessonplanimg, title: "Integration", text: "Integrate all previous lessons into one architecture. Checklist included" },
+    { image: lessonplanimg, title: "Troubleshooting", text: "Troubleshooting Form" },
+    { image: lessonplanimg, title: "The Engineer", text: "Utilizing previous knowledge, test your critical thinking skills by building complex system solutions to meet a business necessity" }
   ];
 
   const renderCards = (card, index) => {

@@ -112,7 +112,7 @@ h5{
 }
 .derpcontainer{
   display: flex;
-  background-image: url("/public/images/SplashArtLogo.jpg");
+  background-image: url("./images/SplashArtLogo.jpg");
   background-position: center;
   height: 100vh;
   background-size: cover;

@@ -1,4 +1,9 @@
 import React from 'react';
+import tangoimg from '../images/35T_Logo.png';
+import micrest from '../images/MI_Crest.png';
+import bn309img from '../images/309th_Logo.png';
+import bn305img from '../images/305th_Logo.png';
+
 
 function Homepage() {
 
@@ -7,13 +12,13 @@ function Homepage() {
             <div class="welcomecontainer d-none d-md-block">
                 <div class="row welheader" style={{ margin: 0 }}>
                     <div class="col-2 welbox">
-                        <img src={"/images/35T_Logo.png"} alt="35T Logo" class="tangologo img-fluid" />
+                        <img src={tangoimg} alt="35T Logo" class="tangologo img-fluid" />
                     </div>
                     <div class="col-8 welbox">
                         <h1>Welcome to Server Workstation Integration</h1>
                     </div>
                     <div class="col-2 welbox">
-                        <img src={"/images/MI_Crest.png"} alt="MI Crest Logo" class="micrestlogo img-fluid" />
+                        <img src={micrest} alt="MI Crest Logo" class="micrestlogo img-fluid" />
                     </div>
                 </div>
             </div>
@@ -21,13 +26,13 @@ function Homepage() {
                 <div class="row welpond" style={{ margin: 0 }}>
                     <div class="tempcontainer">
                     <div class="col-lg-3 carouselbanner">
-                        <img src={"/images/305th_Logo.png"} alt="305th BN Logo" class="bn305logo" />
+                        <img src={bn305img} alt="305th BN Logo" class="bn305logo" />
                     </div>
 
                     <div class="col-lg-6"></div>
 
                     <div class="col-lg-3 carouselbanner">
-                        <img src={"/images/309th_Logo.png"} alt="309th BN Logo" class="bn309logo" />
+                        <img src={bn309img} alt="309th BN Logo" class="bn309logo" />
                     </div>
                     </div>
                     
