@@ -19,6 +19,7 @@ ReactDOM.render(
     <div className="App">
       <div className="content">
         <Navigation />
+        <Homepage />
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="Basics" element={<Basics />}></Route>
