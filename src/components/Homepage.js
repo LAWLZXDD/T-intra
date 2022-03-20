@@ -19,15 +19,19 @@ function Homepage() {
             </div>
             <div class="derpcontainer d-none d-lg-block">
                 <div class="row welpond" style={{ margin: 0 }}>
-                    <div class="col-lg-4 carouselbanner">
-                        <img src={"/images/305th_Logo.png"} alt="305th BN Logo" class="bn305logo img-fluid" />
+                    <div class="tempcontainer">
+                    <div class="col-lg-3 carouselbanner">
+                        <img src={"/images/305th_Logo.png"} alt="305th BN Logo" class="bn305logo" />
                     </div>
 
-                    <div class="col-lg-4"></div>
+                    <div class="col-lg-6"></div>
 
-                    <div class="col-lg-4 carouselbanner">
-                        <img src={"/images/309th_Logo.png"} alt="309th BN Logo" class="bn309logo img-fluid" />
+                    <div class="col-lg-3 carouselbanner">
+                        <img src={"/images/309th_Logo.png"} alt="309th BN Logo" class="bn309logo" />
                     </div>
+                    </div>
+                    
+
                 </div>
             </div>
             <div class="charliecontainer">

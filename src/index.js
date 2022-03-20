@@ -14,7 +14,6 @@ import Troubleshooting from './components/Troubleshooting';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
-
 ReactDOM.render(
   <BrowserRouter>
     <div className="App">
@@ -29,7 +28,6 @@ ReactDOM.render(
           <Route path="Linux" element={<Linux />}></Route>
           <Route path="Troubleshooting" element={<Troubleshooting />}></Route>
         </Routes>
-        
       </div>
     </div>
     <Footer />

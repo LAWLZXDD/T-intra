@@ -1,6 +1,3 @@
-*{
-  /* border: 1px solid red; */
-}
 /* Navbar */
 .main-navbar{
   background-color: rgb(59, 59, 59);
@@ -116,6 +113,7 @@ h5{
 .derpcontainer{
   display: flex;
   background-image: url("/public/images/SplashArtLogo.jpg");
+  background-position: center;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -142,9 +140,6 @@ h5{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.carouselbanner .img-fluid{
-  height: 12rem;
 }
 .charliecontainer{
   display: flex;
@@ -179,4 +174,17 @@ h5{
 .card:hover {
   box-shadow: 0 8px 17px 0 rgba(34, 10, 248, 0.801),0 6px 20px 0 rgba(22, 6, 241, 0.19);
   cursor: pointer;
+  }
+  .tempcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bn309logo{
+    height: 200px;
+    width: 200px;
+  }
+  .bn305logo{
+    height: 200px;
+    width: 200px;
   }
