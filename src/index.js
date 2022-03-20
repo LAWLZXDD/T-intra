@@ -20,7 +20,7 @@ ReactDOM.render(
       <div className="content">
         <Navigation />
         <Routes>
-          <Route path="Homepage" element={<Homepage />}></Route>
+          <Route path="/Homepage" element={<Homepage />}></Route>
           <Route path="Basics" element={<Basics />}></Route>
           <Route path="Networking" element={<Networking />}></Route>
           <Route path="Vmware" element={<Vmware />}></Route>
