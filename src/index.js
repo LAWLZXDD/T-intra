@@ -4,7 +4,7 @@ import './index.css';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './components/Homepage';
+import Homepage from './components/T-intra';
 import Basics from './components/Basics';
 import Networking from './components/Networking';
 import Vmware from './components/Vmware';
@@ -20,7 +20,7 @@ ReactDOM.render(
       <div className="content">
         <Navigation />
         <Routes>
-          <Route path="/Homepage" element={<Homepage />}></Route>
+          <Route path="t-intra" element={<Homepage />}></Route>
           <Route path="Basics" element={<Basics />}></Route>
           <Route path="Networking" element={<Networking />}></Route>
           <Route path="Vmware" element={<Vmware />}></Route>

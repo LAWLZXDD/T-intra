@@ -6,7 +6,7 @@ function Navigation() {
 
     return (
             <Navbar className="main-navbar sticky-top" expand="xl">
-                <Navbar.Brand><Link to="/Homepage" className="homelogo">Server Workstation Integration</Link></Navbar.Brand>
+                <Navbar.Brand><Link to="t-intra" className="homelogo">Server Workstation Integration</Link></Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="nav-item-set">
                     <Nav.Item><NavLink to="Basics" className={({ isActive }) => "nav-links" + (isActive ? ' selected' : '')} activeClassName="selected">Computer Basics</NavLink></Nav.Item>
