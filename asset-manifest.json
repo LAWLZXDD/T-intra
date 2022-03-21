@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/t-intra/static/css/main.ac9c23c4.css",
-    "main.js": "/t-intra/static/js/main.f29058fc.js",
+    "main.css": "/t-intra/static/css/main.85c487ea.css",
+    "main.js": "/t-intra/static/js/main.27c4f182.js",
     "static/media/SplashArtLogo.jpg": "/t-intra/static/media/SplashArtLogo.27880602a60821dbbb3d.jpg",
     "static/media/Windows-Server-2016.png": "/t-intra/static/media/Windows-Server-2016.6f75e16f929b923d25f1.png",
     "static/media/35T_Logo.png": "/t-intra/static/media/35T_Logo.4ff93040937cf9ed424a.png",
@@ -14,11 +14,11 @@
     "static/media/centos-logo-light.png": "/t-intra/static/media/centos-logo-light.86ebb9437701864e68f5.png",
     "static/media/rhellogo.png": "/t-intra/static/media/rhellogo.34eebf9f4004400b4655.png",
     "index.html": "/t-intra/index.html",
-    "main.ac9c23c4.css.map": "/t-intra/static/css/main.ac9c23c4.css.map",
-    "main.f29058fc.js.map": "/t-intra/static/js/main.f29058fc.js.map"
+    "main.85c487ea.css.map": "/t-intra/static/css/main.85c487ea.css.map",
+    "main.27c4f182.js.map": "/t-intra/static/js/main.27c4f182.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac9c23c4.css",
-    "static/js/main.f29058fc.js"
+    "static/css/main.85c487ea.css",
+    "static/js/main.27c4f182.js"
   ]
 }
