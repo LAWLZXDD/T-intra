@@ -1,11 +1,10 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 
 function Navigation() {
 
     const [expanded, setExpanded] = useState(false);
-
 
     return (
             <Navbar expanded={expanded} className="main-navbar sticky-top" expand="xl">

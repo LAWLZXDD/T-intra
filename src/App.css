@@ -32,17 +32,24 @@
 .nav-item-set{
   justify-content: space-evenly;
 }
-/* Placeholder */
 h1{
   text-align: center;
   padding: 10px;
 }
-/* Footer */
 footer{
   background-color: #5c5c60;
+  background-color: black;
   width: 100%;
   position: relative;
   bottom: 0;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  color: gold;
+  font-weight: bold;
 }
 .foot-container{
   display: flex;
@@ -95,7 +102,7 @@ h5{
 .App{
   position: relative;
   min-height: 100vh;
-  background-color: #58585865
+  background-color: #5858583d
 }
 .tangologo{
   height: 150px;
@@ -296,6 +303,7 @@ h5{
     }
     .tsdescirption{
       height: 15rem;
+      width: 13rem;
       overflow: scroll;
       font-size: 18px;
       text-align: center;
