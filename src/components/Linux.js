@@ -47,7 +47,7 @@ function Linux(){
             <div class="row align-items-center">
                 <div class="col-lg-12">
                 <h1 class="font-weight-light">Linux</h1>
-                    <p class="d-none d-xl-block">
+                    <p class="linuxdescription">
                     Linux is a lightweight versatile operating system known for its security, reliablity and stability. It is very common to see 
                     servers running some sort of version of a Linux based operating system(both Military and Civilian sectors). Many of the servers you will be maintaining and implementing
                     during your Army career will be linux based. The learning curve for this operating system is high but the knowledge is essential and lucrative during

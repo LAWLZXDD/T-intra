@@ -11,8 +11,8 @@ function Navigation() {
             <Navbar expanded={expanded} className="main-navbar sticky-top" expand="xl">
                 <Navbar.Brand><Link onClick={() => setExpanded(false)} to="t-intra" className="homelogo">Server Workstation Integration</Link></Navbar.Brand>
                 <Navbar.Toggle  onClick={() => setExpanded(expanded ? false : "expanded")}  />
-                <Navbar.Collapse className="nav-item-set" >
-                    <Nav.Item><NavLink onClick={() => setExpanded(false)} to="Basics" className='nav-links'>Computer Basics</NavLink></Nav.Item>
+                <Navbar.Collapse className="nav-item-set">
+                    <Nav.Item><NavLink onClick={() => setExpanded(false)} to="Basics" className='nav-links' >Computer Basics</NavLink></Nav.Item>
                     <Nav.Item><NavLink onClick={() => setExpanded(false)} to="Networking" className='nav-links'>Networking</NavLink></Nav.Item>
                     <Nav.Item><NavLink onClick={() => setExpanded(false)} to="Vmware" className='nav-links'>VMWare</NavLink></Nav.Item>
                     <Nav.Item><NavLink onClick={() => setExpanded(false)} to="Windows" className='nav-links'>Windows</NavLink></Nav.Item>

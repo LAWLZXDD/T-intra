@@ -27,7 +27,7 @@ function Troubleshooting() {
       <div class="row align-items-center" id="tsrow">
         <div class="col-lg-12" id="blockspace">
           <h1 class="font-weight-light">Troubleshooting</h1>
-          <p class="d-none d-xl-block">
+          <p class="tsdescirption">
             The Integration block of instruction will be on your own. You will be building a network of servers and clients
             with little to no help. This block was designed to test your skills as an administrator. You will know everything about your network, servers, and client
             workstations.

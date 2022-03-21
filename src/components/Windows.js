@@ -42,7 +42,7 @@ function Windows(){
             <div class="row align-items-center">
                 <div class="col-lg-12">
                 <h1 class="font-weight-light">Windows</h1>
-                    <p class="d-none d-xl-block">
+                    <p class="windescription">
                     The Windows block of instruction is designed to introduce you to server-side management that allows users to perform
                     daily operations. Windows is a user friendly computing environment that you will commonly see in the Army and in the civilian sector.
                     You will become familiar with computing functionalities that extend beyond the Windows Operating System.

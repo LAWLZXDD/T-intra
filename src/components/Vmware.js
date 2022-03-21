@@ -34,7 +34,7 @@ function Vmware(){
             <div class="row align-items-center">
                 <div class="col-lg-12">
                 <h1 class="font-weight-light">VMWare</h1>
-                    <p class=" d-none d-xl-block">
+                    <p class="vmdescription">
                     The VMWare block of instruction is designed to familiarize you with cloud computing concepts.
                     Taking physical resources, virtualizing them and implement innovative solutions that are flexible, scalable,
                     and cost efficient. The information provided here will assist you in deploying your own cloud environment to

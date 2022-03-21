@@ -31,12 +31,11 @@ function Networking(){
       }
   
       return(
-      // <div className="home">
         <div class="container">
             <div class="row networkrow">
                 <div class="col-lg-12 ">
                 <h1 class="font-weight-light">Network Configuration</h1>
-                    <p class="d-none d-xl-block">
+                    <p class="netdescription">
                     The Network Configuration block of instruction will introduce you to how computers communicate. The Internet
                     is being able to access resources and share information from across the world with other entities. Understanding how data
                     is passed and traverses through a variety of mediums will aide you in your job as network engineers, troubleshooting, and passing
@@ -48,7 +47,6 @@ function Networking(){
                 </div>
             </div>
         </div>
-      // </div>
     );
 }
 

@@ -31,7 +31,7 @@ function Basics(){
         <div class="row basicrow">
           <div class="col-lg-12">
             <h1 class="font-weight-light">Computer Basics</h1>
-            <p class=" d-none d-xl-block">
+            <p class="basicdescription">
               Computer Basics is an introductory block of instruction that will familiarize
               you with basic fundamentals of components that computers are commonly comprised of,
               how they function at a basic level, and how they relate/led to the modern day technology we use in the Army.
