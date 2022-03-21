@@ -1,15 +1,12 @@
 import React from 'react';
 import tangoimg from '../images/35T_Logo.png';
 import micrest from '../images/MI_Crest.png';
-import bn309img from '../images/309th_Logo.png';
-import bn305img from '../images/305th_Logo.png';
-
 
 function Homepage() {
 
     return (
         <div>
-            <div class="welcomecontainer d-none d-md-block">
+            <div class="welcomecontainer">
                 <div class="row welheader" style={{ margin: 0 }}>
                     <div class="col-2 welbox">
                         <img src={tangoimg} alt="35T Logo" class="tangologo img-fluid" />
@@ -22,28 +19,15 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            <div class="derpcontainer d-none d-lg-block">
-                <div class="row welpond" style={{ margin: 0 }}>
-                    <div class="tempcontainer">
-                    <div class="col-lg-3 carouselbanner">
-                        <img src={bn305img} alt="305th BN Logo" class="bn305logo" />
-                    </div>
-
-                    <div class="col-lg-6"></div>
-
-                    <div class="col-lg-3 carouselbanner">
-                        <img src={bn309img} alt="309th BN Logo" class="bn309logo" />
-                    </div>
-                    </div>
-                    
-
-                </div>
+            <div class="derpcontainer">
             </div>
             <div class="charliecontainer">
                 <div class="row" style={{ margin: 0 }}>
                     <div class="col-6 charliebox">
                         <h3>Division Mission Statement</h3>
-                        <p>To foster critical thinking and logical reasoning to produce the Army's finest technicians</p>
+                        <p>To foster critical thinking and logical reasoning to produce the Army's finest technicians.
+                            Developing sharp minds to innovate and
+                        </p>
                     </div>
                     <div class="col-6 charliebox">
                         <h3>Schoolhouse Mission Statement</h3>

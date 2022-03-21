@@ -4,7 +4,7 @@ import './index.css';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './components/T-intra';
+import Homepage from './components/Homepage';
 import Basics from './components/Basics';
 import Networking from './components/Networking';
 import Vmware from './components/Vmware';

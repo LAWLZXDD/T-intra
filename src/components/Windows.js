@@ -6,9 +6,6 @@ import lessonplanimg from '../images/LessonPlanLogo.png';
 
 function Windows(){
 
-    const winlogo = "/images/Windows-Server-2016.png";
-    const win10logo = "/images/win10logo.png";
-
     const cardInfo = [
         {image: win16img, title:"Installing Windows", text:"Learn how to install Windows with a disk and a network image"},
         {image: win10img, title:"Configuring the Boot Process", text:"Understand the startup process, boot sequence/phases, and Windows Registry"},
@@ -43,9 +40,9 @@ function Windows(){
       <div className="container">
         <div class="home">
             <div class="row align-items-center">
-                <div class="col-lg-12 d-none d-xl-block">
+                <div class="col-lg-12">
                 <h1 class="font-weight-light">Windows</h1>
-                    <p>
+                    <p class="d-none d-xl-block">
                     The Windows block of instruction is designed to introduce you to server-side management that allows users to perform
                     daily operations. Windows is a user friendly computing environment that you will commonly see in the Army and in the civilian sector.
                     You will become familiar with computing functionalities that extend beyond the Windows Operating System.
